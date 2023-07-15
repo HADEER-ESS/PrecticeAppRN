@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App/> has one child 1`] = `
+<RCTSafeAreaView>
+  <RCTScrollView>
+    <View>
+      <Text
+        testID="FirstMainText"
+      >
+        Training App
+      </Text>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
