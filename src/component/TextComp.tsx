@@ -1,12 +1,11 @@
 import React from 'react'
 import { Text } from 'react-native'
-
-export interface Props {
-    Title : String
+interface Props {
+    Title? : String | null
 }
 
-const TextComp : React.FC<Props> = props => {
-    const {Title} = props
+const TextComp : React.FC<Props> = ({Title} : Props) => {
+    // const {Title} = props
   return (
     <Text>{Title}</Text>
   )
